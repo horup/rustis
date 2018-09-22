@@ -1,0 +1,9 @@
+[package]
+name = "rustis"
+version = "0.1.0"
+authors = ["horup <sah@sah.dk>"]
+
+[dependencies.winconsole]
+winapi = "0.3.5"
+winconsole = "0.10.0"
+features = ["input"]
